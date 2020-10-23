@@ -1,0 +1,11 @@
+Model Information:
+* title:	Hero'sbot
+* source:	https://sketchfab.com/3d-models/herosbot-0fe21bcadef7470f9529244091a2e5e2
+* author:	meg-weis (https://sketchfab.com/meg-weis)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Hero'sbot" (https://sketchfab.com/3d-models/herosbot-0fe21bcadef7470f9529244091a2e5e2) by meg-weis (https://sketchfab.com/meg-weis) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
