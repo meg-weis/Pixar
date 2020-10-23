@@ -1,0 +1,11 @@
+Model Information:
+* title:	mouse
+* source:	https://sketchfab.com/3d-models/mouse-556e485af91441fcb5eb90ce1f98171f
+* author:	meg-weis (https://sketchfab.com/meg-weis)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "mouse" (https://sketchfab.com/3d-models/mouse-556e485af91441fcb5eb90ce1f98171f) by meg-weis (https://sketchfab.com/meg-weis) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
