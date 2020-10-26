@@ -2,7 +2,7 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - Marker Based Example AR.js</title>
+  <title>CodePen - Disney</title>
   
 
 </head>
@@ -21,13 +21,129 @@ Check that gltf is working at https://gltf-viewer.donmccurdy.com/
   <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
   <body style="margin : 0px; overflow: hidden;">
     <a-scene embedded arjs>
-      <a-marker preset="hiro">
+      <!--Pattern Marker Example Use this Marker Generator https://jeromeetienne.github.io/AR.js/three.js/examples/marker-training/examples/generator.html-->
+
+      <!--Zeroeth Marker logo and 3D model-->
+<a-marker type='pattern' url='https://meg-weis.github.io/Pixar/Pattern-1.patt'>
         <a-entity
+          rotation="-90 0 0"
           position="0 0 0"
-          scale="0.05 0.05 0.05"
-          gltf-model="https://arjs-cors-proxy.herokuapp.com/https://meg-weis.github.io/Pixar/tinker/scene.gltf"
+          scale="0.005 0.005 0.005"
+          gltf-model="https://arjs-cors-proxy.herokuapp.com/https://meg-weis.github.io/Pixar/disney/Scene.gltf"
         ></a-entity>
       </a-marker>
+      
+      
+      
+      <!--First Marker INTJ and Image Overlay-->
+      
+      <a-marker type='pattern' url='https://meg-weis.github.io/Pixar/Pattern-4.patt'>
+   <a-image position="0 0 0" rotation="-90 0 0" src="https://meg-weis.github.io/Pixar/bolt.png"></a-image> 
+</a-marker>
+
+        
+       
+        <!--Image Example (must be a .png; the .jpg just shows up as white square, you can also modify width="200" height="100" added after src="" but before>)-->
+
+      
+        <!--3D Model Example-->
+
+   <a-marker type='pattern' url='https://meg-weis.github.io/Pixar/pattern-2.patt'>
+     <a-text value="Welcome to the Disney AR book. \n This book has pages that include characters and objects from Disney, Pixar, and Marvel. \n This book shows some of my favorite movies and animations from the world of Disney." color="#000000" position="-1 0 1" rotation="-90 0 0"></a-text>
+</a-marker>
+      
+    
+      
+         <a-marker type='pattern' url='https://meg-weis.github.io/Pixar/Pattern-3.patt'>
+   <a-entity
+          rotation="-90 0 0"
+          position="0 0 0"
+          scale="0.005 0.005 0.005"
+          gltf-model="https://arjs-cors-proxy.herokuapp.com/https://meg-weis.github.io/Pixar/mouse/Scene.gltf"
+        ></a-entity> 
+</a-marker>
+      
+      
+      
+         <a-marker type='pattern' url='https://meg-weis.github.io/Pixar/pattern-5.patt'>
+   <a-entity
+          rotation="-90 0 0"
+          position="0 0 0"
+          scale="0.005 0.005 0.005"
+          gltf-model="https://arjs-cors-proxy.herokuapp.com/https://meg-weis.github.io/Pixar/herosbot/Scene.gltf"
+        ></a-entity>
+</a-marker>
+      
+      
+      
+         <a-marker type='pattern' url='https://meg-weis.github.io/Pixar/pattern-6.patt'>
+   <a-image position="0 0 0" rotation="-90 0 0" src="https://meg-weis.github.io/Pixar/descen.png"></a-image> 
+</a-marker>
+      
+      
+      
+         <a-marker type='pattern' url='https:'>
+   <a-image position="0 0 0" rotation="-90 0 0" src="https://makeademic.github.io/SixteenPersonalities/infp-mediator.png"></a-image> 
+</a-marker>
+      
+         <a-marker type='pattern' url=''>
+   <a-image position="0 0 0" rotation="-90 0 0" src="https://makeademic.github.io/SixteenPersonalities/enfj-protagonist.png"></a-image> 
+</a-marker>
+      
+      
+      
+         <a-marker type='pattern' url='https://makeademic.github.io/SixteenPersonalities/pattern-8.patt'>
+   <a-image position="0 0 0" rotation="-90 0 0" src="https://makeademic.github.io/SixteenPersonalities/enfp-campaigner.png"></a-image> 
+</a-marker>
+      
+      
+      
+         <a-marker type='pattern' url='https://makeademic.github.io/SixteenPersonalities/pattern-9.patt'>
+   <a-image position="0 0 0" rotation="-90 0 0" src="https://makeademic.github.io/SixteenPersonalities/istj-logistician.png"></a-image> 
+</a-marker>
+      
+      
+      
+         <a-marker type='pattern' url='https://makeademic.github.io/SixteenPersonalities/pattern-10.patt'>
+   <a-image position="0 0 0" rotation="-90 0 0" src="https://makeademic.github.io/SixteenPersonalities/isfj-defender.png"></a-image> 
+</a-marker>
+      
+      
+      
+         <a-marker type='pattern' url='https://makeademic.github.io/SixteenPersonalities/pattern-11.patt'>
+   <a-image position="0 0 0" rotation="-90 0 0" src="https://makeademic.github.io/SixteenPersonalities/estj-executive.png"></a-image> 
+</a-marker>
+      
+               <a-marker type='pattern' url='https://makeademic.github.io/SixteenPersonalities/pattern-12.patt'>
+                 <a-text value="Extroverted | Sensing \n      Feeling        | Judging" color="#006F71" position="-1 0 1" rotation="-90 0 0"></a-text>
+   <a-image position="0 0 0" rotation="-90 0 0" src="https://makeademic.github.io/SixteenPersonalities/esfj-consul.png"></a-image> 
+</a-marker>
+      
+      
+      
+         <a-marker type='pattern' url='https://makeademic.github.io/SixteenPersonalities/pattern-13.patt'>
+   <a-image position="0 0 0" rotation="-90 0 0" src="https://makeademic.github.io/SixteenPersonalities/istp-virtuoso.png"></a-image> 
+</a-marker>
+      
+      
+      
+         <a-marker type='pattern' url='https://makeademic.github.io/SixteenPersonalities/pattern-14.patt'>
+   <a-image position="0 0 0" rotation="-90 0 0" src="https://makeademic.github.io/SixteenPersonalities/isfp-adventurer.png"></a-image> 
+</a-marker>
+      
+      
+      
+         <a-marker type='pattern' url='https://makeademic.github.io/SixteenPersonalities/pattern-15.patt'>
+   <a-image position="0 0 0" rotation="-90 0 0" src="https://makeademic.github.io/SixteenPersonalities/estp-entrepreneur.png"></a-image> 
+</a-marker>
+      
+      
+      
+         <a-marker type='pattern' url='https://makeademic.github.io/SixteenPersonalities/pattern-16.patt'>
+   <a-image position="0 0 0" rotation="-90 0 0" src="https://makeademic.github.io/SixteenPersonalities/esfp-entertainer.png"></a-image> 
+</a-marker>
+      
+      
       <a-entity camera></a-entity>
     </a-scene>
   </body>
